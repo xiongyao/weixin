@@ -1,0 +1,74 @@
+{
+    "button": [
+        {
+            "name": "答题中心", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "立即答题", 
+                    "url": "http://weixindtzq.duapp.com/login.jsp"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "立即提现", 
+                    "url": "http://www.soso.com/"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "常见问题", 
+                    "url": "http://www.soso.com/"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "联系我们", 
+                    "url": "http://www.soso.com/"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "学校中心", 
+                    "url": "http://www.soso.com/"
+                }
+            ]
+        }, 
+        {
+            "name": "通知公告", 
+			"sub_button": [
+                {
+                    "type": "view", 
+                    "name": "实时公告", 
+                    "url": "http://203.195.235.76/jssdk/#menu-pay"
+                }
+			]	
+        }, 
+        {
+            "name": "个人中心", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "我的钱包", 
+                    "url": "http://www.soso.com/"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "个人资料", 
+                    "url": "http://www.soso.com/"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "我的关注", 
+                    "url": "http://www.soso.com/"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "我的收藏", 
+                    "url": "http://www.soso.com/"
+                }, 
+                {
+                    "type": "view", 
+                    "name": "答题历史", 
+                    "url": "http://www.soso.com/"
+                }
+            ]
+        }
+	]
+}
