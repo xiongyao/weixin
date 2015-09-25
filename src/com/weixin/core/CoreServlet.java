@@ -24,7 +24,7 @@ private static final long serialVersionUID = 4440739483644821986L;
         String echostr = request.getParameter("echostr");  // 随机字符串
         
         System.out.println("signature:"+signature+"            timestamp:"+timestamp+"            nonce:"+nonce+"               echostr:"+echostr);
-        
+         
         PrintWriter out = response.getWriter();
         // 通过检验 signature 对请求进行校验，若校验成功则原样返回 echostr，表示接入成功，否则接入失败
        if(SignUtil.checkSignature(signature, timestamp, nonce)){
